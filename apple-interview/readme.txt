@@ -1,3 +1,21 @@
+#The Assignment 
+3 Business Day Completion Time:
+Write a scanner in either Python, Go, or Bash which will test web servers basic auth for credentials of root:root.
+
+Things to take into account:
+Scaleability - You may need to run this on tens of thousands of hosts.
+Ports - The service may be running on an alternative port.
+Output - Is the output of the tool easy to decipher and could you easily use the input for other tools?
+Accuracy - How can you confirm the result is a true positive?
+
+The Candidate Needs to provide the following:
+
+* The code
+* Any documentation on how to execute the code
+
+# The way that I interpreted the problem. Imagine you have a X million nodes that need to be tested. You're going to need essentially a cluster of nodes and some kind of leader thing to make this work. I wanted to make this not dependent on kubernetes so it's a collection of python and bash scripts to make this work for however many nodes you can spare to scan. 
+
+
 # Purpose 
 can you create some scripty bits that would show command line and programming skills for a pipeline
 
