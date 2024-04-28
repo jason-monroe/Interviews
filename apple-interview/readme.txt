@@ -13,7 +13,9 @@ The Candidate Needs to provide the following:
 * The code
 * Any documentation on how to execute the code
 
-# The way that I interpreted the problem. Imagine you have a X million nodes that need to be tested. You're going to need essentially a cluster of nodes and some kind of leader thing to make this work. I wanted to make this not dependent on kubernetes so it's a collection of python and bash scripts to make this work for however many nodes you can spare to scan. 
+# The way that I interpreted the problem. Imagine you have a X million nodes that need to be tested. You're going to need 
+essentially a cluster of nodes and some kind of leader thing to make this work. I wanted to make this not dependent on 
+kubernetes so it's a collection of python and bash scripts to make this work for however many nodes you can spare to scan. 
 
 
 # Purpose 
